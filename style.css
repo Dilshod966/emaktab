@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    
+    background-color: rgb(234, 234, 234);
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    box-shadow: 0 0  6px black;
+}
+
+ul {
+    list-style-type: none;
+    
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.chiziq {
+    color: rgb(105, 105, 105);
+}
+
+select {
+    border: none;
+    outline: none;
+    width: 65px;
+    color: aqua;
+}
+
+.kirish {
+    border: 1px solid rgb(11, 109, 222);
+    padding: 5px 15px;
+    color: rgb(11, 109, 222);
+    border-radius: 3px;
+}
+
+.kirish:hover {
+    color: white;
+    background-color: rgb(11, 109, 222);
+}
+
+.royhatdan {
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+.royhatdan:hover {
+    color: white;
+    background-color: green;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > div {
+    width: 65%;
+    margin-top: 40px;
+
+}
+
+.bolim1 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 25px;
+    background-image: linear-gradient(to top, rgb(18, 18, 91), rgb(18, 18, 180));
+}
+.bolim1 a {
+   color: white;
+}
+
+.bolim2 {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+}
+
+.bolim2 input{
+    border-radius: 9px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    height: 40px;
+    width: 400px;
+    background-color: rgb(252, 225, 190);
+    outline: none;
+    border: 1px solid rgb(73, 73, 73);
+    box-shadow: inset 2px 2px 3px rgba(183, 183, 183, 0.478);
+}
+
+.bolim2 div{
+    color: white;
+    padding: 13px 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(1, 67, 1);
+    background-image: linear-gradient(to top, rgb(51, 150, 51), rgb(96, 177, 96));
+}
+
+.bolim2 div:hover {
+    filter: opacity(0.9);
+}
+
+.bolim3 {
+    border: 1px solid black;
+    padding: 30px 25px;
+}
